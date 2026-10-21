@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "ultcheck",
+  "version": "${version}",
+  "name": "UltCheck",
+  "description": "/ultcheck - shows alt accounts (same IP) for every player on the server.",
+  "environment": "server",
+  "entrypoints": { "main": ["com.example.ultcheck.UltCheck"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
